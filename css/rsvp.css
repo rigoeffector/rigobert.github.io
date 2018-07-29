@@ -1,0 +1,1708 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway');
+* {
+    box-sizing: border-box;
+}
+::-moz-placeholder{
+    text-align: center;
+}
+::-webkit-input-placeholder{
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    max-width: 2000px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;sdsddsdsdsds
+
+}
+
+h1,
+h2,
+h3 {
+    margin: 0em;
+    padding: 1em 0;
+}
+
+p {
+    margin: 0em;
+    padding: 1em 0;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    color: #f1f1f1;
+    width: 100%;
+}
+
+#logo img {
+    height: 100px;
+    width: 100px;
+    transform: translate(50px, 50px);
+}
+
+#logo {
+    float: left;
+    /* display: none; */
+    width: 150px;
+}
+
+.runabout {
+    bottom: 0;
+    background: rgba(3, 50, 66, 0.8);
+    color: #f1f1f1;
+    width: 100%;
+    text-align: left;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    font-size: 1.35em;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 0px;
+    font-weight: bold;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+header::before {
+    content: 'RYVCP';
+    font-size: 1.35em;
+}
+
+header:after {
+    content: '';
+    height: 5px;
+    background-color: #fff;
+    display: block;
+    width: 10%;
+}
+
+.description {
+    width: 30%;
+    padding-top: 14%;
+    margin-left: 50px;
+    height: 100%;
+}
+
+.description header::before {
+    content: "RYVCP";
+}
+
+.description button::before {
+    content: "Become a Member";
+}
+
+.description p::after {
+    letter-spacing: 1.5px;
+    text-align: left;
+    align-content: flex-start;
+    content: " Rwanda Youth Volunteers in Community Policing (RYVCP) was created in 2013 by Rwandan Youths who had common vision of developing Rwanda through volunteerism.  Rwanda Youth Volunteers participate and promote voluntary services aimed to contribute to national socio-economic development programs while upholding the Rwandan values of patriotism and national unity. ";
+}
+
+.core_value {
+    height: 350px;
+    width: 350px;
+    margin-top: 10%;
+    margin-left: 16%;
+    margin-right: 150px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 60%;
+    top: 30%;
+}
+
+.core_value ul {
+    padding: 10px;
+}
+
+.core_value h3 {
+    left: -20px;
+    position: relative;
+    text-align: center;
+    background: #f1f1f1;
+    color: black;
+    padding: 5px 0;
+    width: 111%;
+    margin-top: 40px;
+    font-size: 2.25em;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.core_value h3:before {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 5%;
+    height: 100%;
+    background-color: rgb(216, 212, 206);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform-origin: top left;
+    transform: skewY(-50deg);
+    position: absolute;
+    z-index: -1;
+}
+
+.core_value h3:after {
+    content: '';
+    top: 0;
+    right: 0;
+    width: 5%;
+    height: 100%;
+    background-color: rgb(216, 212, 206);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    transform-origin: top right;
+    transform: skewY(-50deg);
+    position: absolute;
+    z-index: -1;
+}
+
+.description #member {
+    height: 50px;
+    width: 250px;
+    background: transparent;
+   border: 1px solid white;
+    color: #f1f1f1;
+    cursor: pointer;
+    margin-top: 20px;
+    float: left;
+}
+
+#member:hover {
+    background-color: rgba(3, 50, 66);
+    transition: all 0.5s ease-in-out;
+}
+
+.logo {
+    width: 20%;
+    display: block;
+}
+
+.logo img {
+    height: 50px;
+    width: 100px;
+}
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    min-height: 80%;
+    /* width: 100%; */
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+nav {
+    width: 100%;
+    background: rgba(3, 50, 66, 1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    float: right;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 80px;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+
+ul li:hover {}
+
+.toggle {
+    width: 100%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+}
+
+.sliders {
+    height: 250px;
+    width: 100%;
+}
+
+.text {
+    color: #000
+}
+
+.main {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    width: 600px;
+    height: 200px;
+    margin-top: 10%;
+}
+
+.main .layer1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 50, 66, 1);
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: skewX(-30deg);
+    transition: .5s;
+    z-index: 1;
+}
+
+.main .layer2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: royalblue;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: 5s;
+    z-index: -1;
+}
+
+.main:hover .layer2 {
+    transform: scaleX(1.5) scaleY(.9);
+    transition: 2s;
+}
+
+.main:hover .layer2::before {
+    white-space: pre;
+    content: "Tugire  ";
+    color: #f1f1f1;
+    padding: 5px;
+    font-size: 1.35em;
+    margin-top: 20px;
+}
+
+.main:hover .layer2::after {
+    white-space: pre;
+    content: "Umutekano  ";
+    color: #f1f1f1;
+    padding: 5px;
+    font-size: 1.35em;
+    margin-top: 120px;
+    margin-left: 20px;
+    float: right;
+}
+
+.all_about {
+    width: 100%;
+    height: 450px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main_back {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 50, 66, 0.6);
+}
+
+.all_events {
+    background-image: url('../img/kigali-city-scene-1024x418.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 20px;
+}
+
+.events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.event_back {
+    background-color: rgba(3, 50, 66, 0.5);
+}
+
+.event_back h3 {
+    color: white;
+}
+
+.all_events h3::before {
+    content: "Events and Updates";
+    color: white;
+    font-size: 1.35em;
+}
+
+.all_events h3:after {
+    content: '';
+    height: 5px;
+    background-color: white;
+    display: block;
+    width: 10%;
+    margin-top: 5px;
+  
+}
+
+.box1 {
+    width: 350px;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #fff;
+}
+.box1 #Readmore{
+    background-color: transparent;
+    border: 5px rgba(3, 50, 65,0.8);
+    border-radius: 1px;
+    color: rgb(3, 50, 66);
+  
+}
+
+#title {
+    background: rgba(3, 50, 66, 0.8);
+    /* height: 60px; */
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    line-height: 50px;
+    height: 60px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.box1 img {
+    height: 200px;
+    width: 100%;
+}
+
+.about_event {
+    height: 80px;
+}
+
+.about_event p {
+    color: #000;
+    font-size: 0.95em;
+    padding: 10px;
+}
+
+.box1 button {
+    float: right;
+    margin-right: 20px;
+    height: 50px;
+    width: 150px;
+    background-color: rgba(3, 50, 66);
+    border: 1px solid rgba(3, 50, 66, 0.6);
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button{
+ 
+    margin-right: 20px;
+    height: 50px;
+    width: 150px;
+    background-color: rgba(3, 50, 66);
+    border: 1px solid rgba(3, 50, 66, 0.6);
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box1 h4 {
+    position: relative;
+    text-align: center;
+    background: #f1f1f1;
+    color: black;
+    padding: 5px 0;
+    width: 112%;
+    font-size: 2.25em;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.achievements {
+    width: 100%;
+    text-align: center;
+   
+  }
+
+.achievements .achievements_container {
+position: relative;
+    height: 300px;
+    width: 350px;
+    box-sizing: border-box;
+    display: inline-block;
+   margin: 3em 0;
+
+}
+.achievements .achievements_container .imgBox{
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  width: 350px;
+}
+.achievements .achievements_container .imgBox img{
+  width: 100%;
+  height: 100%;
+  transition: 2s;
+  transform: scale(1.5);
+}
+.achievements .achievements_container:hover .imgBox img{
+  transform: scale(2);
+}
+.achievements .achievements_container .details{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(3, 50, 66,0.8);
+  transition: 1s;
+  opacity: 0;
+
+  transform: scale(1.5);
+
+}
+.achievements .achievements_container:hover .details{
+  opacity: 1;
+  transform: scale(1);
+}
+.achievements .achievements_container .contents_details{
+  color: white;
+  padding: 10px;
+  font-size: 0.80em;
+
+}
+.Pagination{
+    height: 50px;
+    width: 100%;
+    font-size: 2em;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+} 
+.Pagination .next{
+    color: white;
+    height: 50px;
+    width: 80px;
+    background-color: rgba(3, 50, 65,0.6);
+    text-align: center;
+    line-height: 50px;
+    transition: all .5s ease-in-out;
+   
+}
+.Pagination .next:hover{
+   transform: scale(1.1);
+   color: rgb(0, 0, 0);
+   background-color: rgb(255, 255, 255);
+   
+}
+.names {
+    height: auto;
+    width: 100%;
+}
+
+.achieve h3 i {
+    font-size: 1.25em;
+}
+.achieve .imgBox{
+  position: relative;
+  overflow: hidden;
+}
+.achieve .details{
+  position: absolute;
+}
+.all_partners {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: transparent;
+}
+
+.partners_wrappper{
+    margin: 5em 0;
+    
+}
+/* for partners */
+
+a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+.box {
+    /* padding: 2em; */
+    border: 1px solid #ccc;
+    display: block;
+    width: 200px;
+    height: 150px;
+    color: #000000;
+    background: linear-gradient( white, white 50%, rgba(3, 50, 66, 0.8) 50%, rgba(3, 50, 66, 0.6));
+    background-size: 100% 202%;
+    transition: all 0.2s ease;
+    animation: down-bump 0.4s ease;
+    margin: 1em 1em;
+}
+
+.box h2 {
+    font-weight: 400;
+    letter-spacing: -1.5px;
+    line-height: 1;
+}
+
+.box h3 {
+    font: 0.8em "Lucida Grande", serif;
+}
+
+.box:hover {
+    background-position: 100% 100%;
+    animation: up-bump 0.4s ease;
+}
+
+.box:hover h2 {
+    color: rgba(3, 50, 66, 0.8);
+}
+
+.box:hover h2 span {
+    color: white;
+}
+
+.box:hover h3 {
+    color: #fff;
+}
+
+@keyframes up-bump {
+    0% {
+        padding-top: 2em;
+    }
+    50% {
+        padding-top: 1.5em;
+    }
+    100% {
+        padding-top: 2em;
+    }
+}
+
+@keyframes down-bump {
+    0% {
+        padding-top: 2em;
+    }
+    50% {
+        padding-top: 2.5em;
+    }
+    100% {
+        padding-top: 2em;
+    }
+}
+
+#header::before {
+    content: 'Our Partners';
+    font-size: 1.35em;
+    text-align: center;
+}
+
+#header:after {
+    content: "";
+    width: 5%;
+    background-color: rgba(3, 50, 66, 1);
+    height: 5px;
+    display: block;
+}
+
+.box img {
+    height: 100px;
+    width: 100px;
+}
+
+.footer h3 {
+    padding-top: 50px;
+    font-size: 2.3em;
+}
+
+.footer h3::before {
+    content: "RYVCP";
+    color: #fff;
+}
+
+.items {
+    background-color: rgba(3, 50, 66, 1);
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+}
+
+.items h6 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.maincontainer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 20px;
+}
+
+.thecard {
+    background-color: aquamarine;
+    height: 350px;
+    width: 50%;
+    transform-style: preserve-3d;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.thecard:hover {
+    transform: rotateY(180deg);
+}
+
+.thefront {
+    backface-visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.thefront p {
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.theback p {
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.thefront h3::before {
+    content: "Mission";
+    text-align: center;
+    padding: 10px;
+}
+
+.thefront h3:after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(216, 212, 206);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    transform-origin: bottom left;
+    transform: skewY(-38deg);
+    position: absolute;
+    z-index: -1;
+}
+
+.thefront h3 {
+    background-color: rgba(3, 50, 66, 1);
+    width: 125px;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    left: -25px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.theback h3 {
+    background-color: rgba(3, 50, 66, 1);
+    width: 125px;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    right: -25px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.theback h3::before {
+    content: "Vision";
+    text-align: center;
+    padding: 10px;
+}
+
+.theback h3:after {
+    content: '';
+    bottom: 0;
+    right: 0;
+    width: 19%;
+    height: 100%;
+    transform-origin: top right;
+    transform: skewY(38deg);
+    position: absolute;
+    z-index: -1;
+}
+
+.vision p::before {
+    content: "Our Vision is to contribute voluntarily in country socio-economic activities and security with view of promoting self-reliance and live a crime-free country.";
+    padding-top: 150px;
+}
+
+.mission p::before {
+    content: "Our Mission is to work together and voluntarily participate in state programs implementation; upholding dignity, patriotism, unity and security in Rwandan population";
+    padding-top: 150px;
+}
+
+.theback {
+    backface-visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    transform: rotateY(180deg);
+    color: #000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.slogan_mission,
+.slogan_vision {
+    height: 140px;
+    background-color: rgba(3, 50, 66, 1);
+    transform: translateY(-44px)
+}
+
+.slogan_mission p::before {
+    content: "Tugire Umutekano";
+    color: #fff;
+}
+
+.slogan_vision p::before {
+    white-space: pre;
+    content: "Buriwese abe ijisho rya mugenzi we \A Dukumira icyaha Kitaraba \A Dutangira Amakuru ku gihe \A kandi vuba ";
+    color: #fff;
+    width: 100%;
+    padding: 2px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.slogan p {
+    padding-top: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.footer {
+    background-color: #000;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+
+.footer h4 {
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+
+#modal {
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
+    float: right;
+    margin: 20px;
+    border-radius: 50px;
+    border: 1px solid aliceblue;
+    display: block;
+}
+
+#modal:hover {
+    background-color: rgba(3, 50, 66);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    border: 0px;
+    color: aliceblue;
+}
+
+#modal::before {
+    content: "post";
+    color: black;
+}
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons */
+
+#mybtn {
+    background-color: transparent;
+    float: right;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    width: 100%;
+    margin: 0 5em;
+    transform: translateY(-50px);
+}
+
+#button {
+    background-color: #ffffff;
+    color: black;
+    height: 50px;
+    width: 100%;
+    margin: 1em 0em;
+    border: none;
+    cursor: pointer;
+    padding: 14px 20px;
+    border-radius: 20px;
+}
+
+#button:hover {
+    opacity: 0.8;
+}
+
+
+/* Extra styles for the cancel button */
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: rgba(3, 50, 66, 0.8);
+}
+
+
+/* Center the image and position the close button */
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.containers {}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+
+/* The Close Button (x) */
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+/* Add Zoom Animation */
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+
+/* end of modal */
+
+.wrapper {
+    background-color: rgba(3, 50, 66, 0.8);
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 2000px;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar ul {
+    width: 100%;
+    padding: 10px;
+}
+
+.navbar #nav_link {
+    padding: 5px;
+}
+.navbar #nav_link li:hover{
+  border:1px solid white;
+    
+}
+.logo_member img {
+    height: 150px;
+    width: 150px;
+    transform: translate(150px, 50px);
+    position: absolute;
+}
+
+.title_member {
+    height: 50px;
+    background-color: red;
+}
+
+.contact_details {
+    width: 100%;
+    /* background-color: red; */
+
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_details h3::before {
+    content: "Contact Us";
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.member_title p {
+    height: 320px;
+    width: 100%;
+    background-color: rgba(3, 50, 66, 0.8);
+    font-size: 2.5em;
+    padding-top: 5.5em;
+
+}
+.member_title p:after {
+    content: "";
+    background: white;
+    height: 5px;
+    width: 10%;
+    display: block;
+}
+
+/* .contactinfo .input{
+  border: 0px;
+  outline: none;
+  border-bottom: 2px solid rgba(3, 50, 66, 0.8);
+  height: 50px;
+width: 100%;
+position: relative;
+bottom: 0;
+}
+.contactinfo #my_subject{
+  border: 0px;
+  outline: none;
+  border-bottom: 2px solid rgba(3, 50, 66, 0.8);;
+} */
+.contact_details .formBox{
+
+ width: 550px;
+
+}
+.contact_details .formBox .input{
+    text-align: left;
+    padding: 0;
+    font-size: 15px;
+}
+.contact_details .formBox .button{
+    background-color: red;
+    border:1px solid #ddd;
+    border-radius: 0;
+    background-color: transparent;
+    color: rgb(3, 50, 66);
+    margin: 1em 0;
+}
+.contact_details .inputBox{
+  position: relative;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+
+}
+.contact_details .input{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border:none;
+  outline:none;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  border-bottom: 1px solid #ddd;
+}
+.contact_details  .input_area
+{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 15px;
+    margin: 1em 0;
+    border-bottom: 1px solid #ddd;
+    padding: 0;
+}
+.contact_details .inpuText{
+  /* position: absolute; */
+  /* line-height: 50px; */
+  font-size: 24px;
+ 
+}
+.member_title {
+    background-image: url('../img/1.jpg');
+    height: 420px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+}
+
+
+
+.core_values_member {
+    padding-top: 5em;
+    position: absolute;
+    background: rgba(3, 50, 66, 0.8);
+    height: 100px;
+    width: 100%;
+    /* transform: translateY(-20px); */
+
+
+}
+.word{
+  display: inline-block;
+
+}
+.word span{
+  position: absolute;
+  left: 42%;
+  top: 0;
+  font-size: 2em;
+    overflow: hidden;
+animation: animate 10s linear infinite;
+opacity: 0;
+
+}
+@keyframes animate
+{
+  0%{
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  2%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  18%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  20%{
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+}
+.word span:nth-child(1){
+animation-delay: 0s
+}
+.word span:nth-child(2){
+animation-delay: 2s
+}
+.word span:nth-child(3){
+animation-delay: 4s
+}
+.word span:nth-child(4){
+animation-delay: 6s
+}
+.word span:nth-child(5){
+animation-delay: 8s
+}
+
+/* The typewriter cursor effect */
+
+
+.contactinfo {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+
+#label {
+    width: 100%;
+    margin-bottom: 10px;
+    transition: .5s;
+    opacity: .5;
+    position: relative;
+}
+
+input[type] {
+    width: 100%;
+    border: 1px solid #ccc;
+
+}
+
+select {
+    width: 106%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0em;
+}
+
+#submit {
+    height: 50px;
+    width: 150px;
+    background-color: rgba(3, 50, 66);
+    border: 0px;
+    border-radius: 20px;
+    color: #fff;
+    margin: 1em 0;
+}
+
+#submit:hover {
+    background-color: #fff;
+    color: rgba(3, 50, 66);
+    transition: all 0.5s ease-in-out;
+    border: 1px solid rgba(3, 50, 66, 0.8);
+    cursor: pointer;
+}
+
+textarea {
+    resize: vertical;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    width: 100%;
+}
+
+#post_area {
+    resize: vertical;
+    border: 1px solid #dddddd;
+    height: 100px;
+    width: 100%;
+}
+
+#about {
+    font-size: 1em;
+}
+
+.about_team_img {
+    text-align: center;
+    color: #000;
+    font-size: 2.5em;
+    width: 200px;
+}
+
+.about_team_img img {
+    width: 100px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    margin: 5em 5em;
+}
+
+.contact_pepole {
+    height: 200px;
+    width: 200px;
+    padding: 2px;
+}
+
+
+/* members page */
+
+#regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    padding: 40px;
+    width: 70%;
+    min-width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tab .input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    border: 0px;
+    outline: none;
+    border-bottom: 1px solid rgba(3, 50, 65,0.8);
+}
+
+
+/* Mark input boxes that gets an error on validation: */
+
+input.invalid {
+    background-color: #ffdddd;
+}
+
+
+/* Hide all steps by default: */
+
+.tab {
+    display: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#prevBtn {
+    background-color: #bbbbbb;
+}
+
+
+/* Make circles that indicate the steps of the form: */
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.step.active {
+    opacity: 1;
+}
+
+
+/* Mark the steps that are finished and valid: */
+
+.step.finish {
+    background-color: #4CAF50;
+}
+
+.aboutus {
+    height: 100vh;
+    background-image: url('../img/4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* max-width: 2000px;
+    max-height: 2000px; */
+    ;
+}
+
+.background_img {
+    background-color: rgba(3, 50, 66, 0.8);
+    height: 100%;
+    width: 100%;
+    max-width: 2000px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.content_about {
+    width: 700px;
+    padding: 10px;
+    padding-top: 100px;
+    max-width: 100%;
+    max-height: 100vh;
+}
+.content_about img {
+    width: 100%;
+    height: 100%;
+}
+
+.what_wedo {
+    max-width: 2000px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.todo_list {
+    height: 250px;
+    width: 200px;
+    color: white;
+    animation: myfirst 5s 2;
+    animation-direction: alternate;
+}
+
+.icons {
+    height: 80px;
+    width: 80px;
+    background-color: rgba(3, 50, 66, 0.6);
+    transform: translateX(10px);
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.todo_list i {
+    font-size: 2.5em;
+    line-height: 80px;
+}
+
+.first {
+    margin-left: 2em;
+}
+
+#what_we_do {
+    color: white;
+    font-size: 2.5em;
+}
+
+.followus {
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    color: #fefefe;
+    margin-left: 5em;
+}
+
+.followus i {
+    line-height: 2.5em;
+}
+
+.cons {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 1em;
+    transition: background 1s, transform 0.3s linear;
+}
+
+#icon1:hover {
+    transform: rotate(360deg);
+}
+
+.cons:hover {
+    background: rgba(77, 120, 134, 0.8);
+    color: #fff;
+    transform: rotate(360deg) scale(1.2);
+    border:0px;
+}
+
+.subscribe {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    margin: 1em 0em;
+    justify-content: center;
+}
+
+.fa {
+    color: white;
+}
+
+.email input[type] {
+    height: 100%;
+    background-color: rgba(3, 50, 66, 0.301);
+    border: 0px;
+    color: white;
+}
+
+.subcribe i {
+    font-size: 2.5em;
+}
+
+.enevlop {
+    background-color: rgba(3, 50, 66, 0.8);
+    text-align: center;
+    font-size: 2.5em;
+    color: #fff
+}
+
+.content_wrapper{
+  background: rgba(255, 255, 155, 0);
+  padding-top: 5%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+.MoreInformation_wrapper{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  top: 100px;
+  text-align: center;
+
+}
+.images_container{
+position: relative;
+  margin-top: 80px;
+}
+.images_container >div{
+
+}
+.images_container >div{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    right: 0px;
+    bottom: 10px;
+
+}
+.images_container h2{
+background: rgb(3, 50, 66);
+  color: white;
+  width: 500px;
+  left: 28px;
+  margin-left: 2.25em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.share{
+  background: rgba(3, 50, 66 , 0.9);
+  position: absolute;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  cursor: pointer;
+  width: 50px;
+  float: right;
+  top: -30px;
+  left: 80%;
+  border-radius: 50%;
+
+}
+#continue{
+  float: right;
+  position: relative;
+  background-color: rgb(3, 50, 66);
+  top: 50px;
+  bottom: 0;
+  width: 150px;
+}
+.Published_content{
+content:"";
+width: 50px;
+height: 200px;
+background: rgb(3, 50, 66);
+position: absolute;
+top: -20px;
+left: 0;
+padding: 5px;
+color: white;
+/* left: -10px; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.Published_content p{
+  transform: translateX(-40px);
+  font-size: 15px;
+  writing-mode: vertical-rl;
+text-orientation: mixed;
+}
+.Published_content:before{
+content:"";
+position: absolute;
+top: 0;
+right:-50px;
+z-index: -1;
+
+border-top: 25px solid transparent;
+border-left:25px solid rgba(3, 50, 65,0.8);
+border-right: 25px solid transparent;
+border-bottom: 25px solid rgba(3, 50, 65,0.8);
+
+/* left: -10px; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.Published_content:after{
+content:"";
+  /* background-color: rgba(3, 50, 66, 0); */
+position: absolute;
+bottom: 0;
+left:0;
+border-top: 25px solid transparent;
+border-left: 25px solid transparent;
+border-right: 25px solid transparent;
+border-bottom: 25px solid #fff;
+
+/* left: -10px; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.images_container img{
+  height: 300px;
+  width: 500px;
+  margin-left: 3.4em;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border: 2px solid #ddd;
+   position: relative;
+}
+.contents_container{
+  height: 380px;
+  width: 90%;
+  background: white;
+  position: relative;
+  border: 1px solid #ddd;
+  top: 80px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+
+}
+.contents_container:after{
+  content: "";
+width: 50px;
+height: 50px;
+border-top: 0px solid #ddd;
+border-left: 1px solid #ddd;
+border-right:  0px solid #ddd;
+border-bottom: 1px solid #ddd;
+transform: rotate(45deg);
+background-color: #fff;
+
+right: 100%;
+left: -25px;
+top: 50%;
+
+position: absolute;
+
+}
+.contents_container p{
+  padding: 20px;
+  text-align: left;
+  margin-left: 2em;
+}

@@ -1,0 +1,411 @@
+            * {
+                box-sizing: border-box;
+            }
+
+            @media(max-width:670px) {
+            /* end of index page */
+                .core_value {
+                    /* margin-left: 16%;
+                    margin-right: 150px; */
+                    background: rgba(0, 0, 0, 0.5);
+                    border-radius: 20px;
+                    /* position: absolute; */
+                    /* left: 30%;
+                    top: 30%; */
+                    width: 20%;
+                    display: none;
+                }
+                .description #member {
+                    height: 50px;
+                    width: 80%;
+                    background-color: transparent;
+                    border: 1px solid#ffff;
+                   
+                    color: #f1f1f1;
+                    cursor: pointer;
+                    margin-top: 20px;
+                    box-sizing: border-box;
+                    margin: 0 1em;
+                    
+                }
+                .events {
+                    display: block;
+                }
+                .all_events {
+                    margin: 2em 0em;
+                    padding-bottom: 20px;
+                }
+                .box1 {
+                    width: 90%;
+                    height: 400px;
+                    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                    margin-bottom: 40px;
+                    /* margin-left: 20px; */
+                    /* margin-right: 20px; */
+                    background-color: #fff;
+                }
+                .achievements_container {
+                    display: block;
+                }
+                .achievements {
+                    height: 180vh;
+                }
+                .achieve {
+                    height: 100%;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                    width: 90%;
+                    cursor: pointer;
+                    margin: 1em 1em;
+                }
+                .achievements .achievements_container{
+            display: block;
+           
+                 width: 100%;  
+                 object-fit: fill;
+                }
+                .achievements .achievements_container .imgBox{
+                    display: block;
+                    width: 100%;
+                    height: 70%;
+                }
+                .achievements .achievements_container .details {   
+                  width:100%;
+                  height: 70%;
+                  box-sizing: border-box;
+                  overflow: hidden;
+            transform: translate(-50%);
+                 
+                }
+                .Pagination{
+                    display: none;
+                 } 
+                .thecard {
+                    background-color: aquamarine;
+                    height: 350px;
+                    width: 80%;
+                    transform-style: preserve-3d;
+                    position: absolute;
+                    transition: all 0.5s ease-in-out;
+                    cursor: pointer;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                }
+                .contact {
+                    width: 80%;
+                    margin: 0 2em;
+                   
+                }
+                .contactinfo {
+                    width: 100%;
+                    height: 100%;
+                    padding: 10px;
+                    
+                }
+               .contact_details{
+                 
+               }
+                /* ======================================================== */
+                /* about us page */
+                .logo_member img {
+                    display: none;
+                }
+                #myVideo {
+                    display: none;
+                }
+                .runabout {
+                    bottom: 0;
+                    background: rgba(3, 50, 66, 0.8);
+                    color: #f1f1f1;
+                    width: 100%;
+                    text-align: left;
+                    height: 100vh;
+                    display: flex;
+                    justify-content: space-between;
+                    position: relative;
+                }
+                .content {
+                    background-image: url(../img/kigali-city-scene-1024x418.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    height: 100%;
+                    position: absolute;
+                    /* z-index: 0; */
+                    /* display: none; */
+                    /* display: block; */
+                }
+                #logo {
+                    display: none;
+                }
+                .nav_bar {
+                    background-color: brown;
+                    width: 100%;
+                }
+                .nav_bar ul li a {
+                    display: none;
+                    font-size: 1em;
+                    clear: left;
+                }
+                #nav_link {
+                  display: none;
+                }
+                #nav_link li{
+                  display: block;
+                  text-align: center;
+                  float: left;
+                  background-color: rgba(0,0,0,0.9);
+                  width: 100%;
+                }
+                #nav_link a{
+                  text-align: center;
+                  width: 100%;
+                }
+                .toggle{
+                  display: block;
+                  color: white;
+
+                }
+                /* header */
+                .about_us {
+                    margin-top: 50em;
+                    display: block;
+                }
+                .center {
+                    width: 100%;
+                    margin: 0 0em;
+                    box-sizing: border-box;
+                    bottom: 20px;
+                }
+                .content_about {
+                    width: 100%;
+                }
+                .content_about h1 {
+                    width: 100%;
+                    font-size: 25px;
+                    text-align: left;
+                }
+                .content_about h1:after {
+                    content: "";
+                    width: 12%;
+                    background-color: #fff;
+                    height: 5px;
+                    display: block;
+                }
+                .content_about p {
+                    text-align: center;
+                    font-size: 15px;
+                }
+                .what_wedo {
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                }
+                .todo_list {
+                    width: 100%;
+                }
+                .icons {
+                    height: 50px;
+                    width: 50px;
+                }
+                .cons{
+                    width: 48px;
+                    float: left;
+                    margin: 0 3px;
+                    text-align: center;
+                }
+                #what_we_do {
+                    font-size: 25px;
+                    text-align: left;
+                    margin: 0em 0.5em;
+                }
+                #what_we_do:after {
+                    content: "";
+                    height: 5px;
+                    width: 12%;
+                    display: block;
+                    background-color: #fff;
+                }
+                .icons {
+                    text-align: center;
+                }
+                /* header */
+                .partners {
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    padding: 20px;
+                    background: transparent;
+                    width: 100%;
+                }
+                .all_partners {
+                    display: block;
+                    box-sizing: border-box;
+                }
+                .footer {
+                    display: block;
+                    top: 100%;
+                    bottom: 0px;
+                    height: 390px;
+                    bottom: 0;
+                }
+                .followus {
+                    display: flex;
+                    width: 100%;
+                    float: right;
+                    color: #fefefe;
+                    padding: 2px;
+                    text-align: center;
+
+                }
+                .followus i {
+                    width: 22%;
+                    text-align: center;
+                   
+                }
+                .subscribe {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 3em;
+                }
+                #mybtn {
+                    position: relative;
+                    top: 80px;
+                    float: left;
+                }
+                .box {
+                    display: block;
+                    width: 100%;
+                }
+                .runabout .description {
+                    width: 100%;
+                    padding-top: 55%;
+                    margin-left: 20px;
+                    height: auto;
+                    /* display: none; */
+                }
+                .description p {
+                    font-size: 0.85em;
+                    width: 100%;
+                    position: relative;
+                }
+                .member_title p {
+
+                    font-size: 20px;
+                    padding: 7em 1em;
+                  
+                }
+                .core_values_member .word{
+                    font-size: 10px;
+                    line-height: 100px;
+                }
+                .slogan_mission,
+.slogan_vision {
+    height: 117px;
+    background-color: rgba(3, 50, 66, 1);
+    transform: translateY(-44px)
+}
+.MoreInformation_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+/* .MoreInformation_wrapper .images_container
+{
+    display: block;
+} */
+.MoreInformation_wrapper .content_wrapper .images_container h2 {
+  transform: translateX(-30px);
+  width: 214px;
+    height: 40px;;
+    margin-top: 1em;
+    font-size: 15px;
+    text-align: center;
+    
+    
+}
+.MoreInformation_wrapper .content_wrapper .images_container {
+ 
+    transform: translateY(-100px);
+    position: absolute;
+    height: 150px;;
+}
+.MoreInformation_wrapper .content_wrapper .images_container img {
+   height: 100%;
+   width: 214px;
+   transform: translateY(-10px);
+   transform: translateX(-50px);
+}
+.MoreInformation_wrapper .contents_container{
+    width: 220px;  
+    margin-top: 5em;
+    height: 300px;
+}
+.contents_container:after{
+    content: "";
+  width: 50px;
+  height: 50px;
+  border-top: 0px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right:  0px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  transform: rotate(45deg);
+  background-color: #fff;
+  right: 100%;
+  left: -25px;
+  top: 50%;
+  position: absolute;
+  display: none;
+  
+  }
+}
+            /* about us page end */
+            /* ************************TABLETS**************************** */
+
+            @media(max-width:1000px) {
+                /* index page */
+                #logo {
+                    float: left;
+                }
+                #logo img {
+                    height: 100px;
+                    width: 100px;
+                }
+                .description {
+                    width: 50%;
+                    padding-top: 25%;
+                    margin-left: 20px;
+                    height: auto;
+                    /* display: none; */
+                }
+                .core_value {
+                    height: 350px;
+                    width: 280px;
+                    margin-top: 20%;
+                    margin-left: 16%;
+                    margin-right: 150px;
+                    background: rgba(0, 0, 0, 0.5);
+                    border-radius: 20px;
+                    position: absolute;
+                    transform: translate(-50%, -50%);
+                    left: 60%;
+                    top: 30%;
+                }
+                .core_value h3 {
+                    left: -16px;
+                    position: relative;
+                    text-align: center;
+                    background: #f1f1f1;
+                    color: black;
+                    padding: 5px 0;
+                    width: 111%;
+                    margin-top: 40px;
+                    font-size: 2.25em;
+                    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                }
+                
+            }
+           
+            

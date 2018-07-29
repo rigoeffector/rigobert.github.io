@@ -1,0 +1,237 @@
+/* index page */
+  /* .content {
+        height: 100vh;
+        width: 100%;
+        background-image: url('../img//kigali-city-scene-1024x418.jpg');
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    #myVideo {
+        display: none;
+    }
+    #nav_link {
+        display: none;
+    }
+    #nav_link {
+        background-color: rgb(3, 50, 66);
+        width: 100%;
+        margin-top: 22px;
+        position: relative;
+    }
+    .wrapper {
+        color: #fff;
+        background-color: rgb(3, 50, 66);
+    }
+    .navbar {
+        width: 100%;
+    }
+    #nav_link li {
+        /* display: block; */
+  
+  width: 100%;
+  text-align: center;
+}
+#nav_link a {
+    width: 100%;
+}
+.toggle {
+    display: block;
+}
+#logo {
+    display: none;
+}
+.runabout {
+    display: block;
+    height: 100%;
+}
+.description {
+    height: 100%;
+    padding-top: 10em;
+    width: 100%;
+}
+.description header {
+    left: 0px;
+}
+.description p {
+    font-size: 12px;
+}
+.core_value {
+    display: none;
+}
+.all_about {
+    margin-top: 40em;
+}
+
+/* .events {
+        width: 100%;
+    } */
+.box1 {
+    width: 100%;
+}
+.all_events {
+    display: none;
+}
+
+}
+.achievements {
+    display: none;
+}
+.first p {
+    font-size: 2.5em;
+}
+
+/* index page */
+.description {
+    font-size: 0.8em;
+    padding-top: 15em;
+    width: 50%;
+}
+.core_value {
+    /* height: 350px; */
+    width: 30%;
+    margin-top: 15%;
+    margin-left: 16%;
+    /* margin-right: 150px; */
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 60%;
+    top: 30%;
+}
+.core_value h3 {
+    left: -13px;
+    position: relative;
+    text-align: center;
+    background: #f1f1f1;
+    color: black;
+    padding: 5px 0;
+    width: 111%;
+    margin-top: 40px;
+    font-size: 2.25em;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* en index page */
+
+/* about us page */
+.logo_member img {
+    display: none;
+}
+.nav_bar {
+    background-color: brown;
+    width: 100%;
+}
+.nav_bar ul li a {
+    display: none;
+    font-size: 1em;
+    clear: left;
+}
+
+/* header */
+.about_us {
+    display: none;
+}
+.center {
+    width: 100%;
+    margin: 0 0em;
+    box-sizing: border-box;
+    bottom: 20px;
+}
+.content_about {
+    width: 100%;
+}
+.content_about h1 {
+    width: 100%;
+    font-size: 25px;
+}
+.content_about p {
+    text-align: center;
+    font-size: 15px;
+}
+.what_wedo {
+    padding-right: 20px;
+}
+.what_wedo p {
+    color: #fefefe;
+}
+.todo_list {
+    width: 100%;
+}
+.icons {
+    height: auto;
+    width: 80px;
+}
+#what_we_do {
+    font-size: 25px;
+}
+.first {
+    color: black;
+}
+.icons {
+    text-align: center;
+}
+.first p {
+    font-size: 1em;
+}
+
+/* header */
+.partners {
+    background: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.all_partners {
+    box-sizing: border-box;
+}
+.footer {
+    display: block;
+    bottom: 0px;
+    height: 400px;
+    bottom: 0;
+}
+.followus {
+    display: flex;
+    width: 100%;
+    float: right;
+    color: #fefefe;
+}
+.followus i {
+    width: 25%;
+}
+.subscribe {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+#mybtn {
+    position: relative;
+    top: 80px;
+    float: left;
+}
+.box {
+    display: block;
+    width: 100%;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+#logo {
+    float: left;
+    padding: 5px;
+}
+#logo img {
+    /* display: none;*/
+    height: 150px;
+    width: 150px;
+    right: 100%;
+    padding-top: 10px;
+}
